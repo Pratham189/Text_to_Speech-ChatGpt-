@@ -5,7 +5,7 @@ from tkinter import scrolledtext
 
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "Enter Your API_KEY"
 
 def generate_response(prompt):
     response = openai.Completion.create(
